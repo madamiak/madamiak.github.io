@@ -8,94 +8,97 @@
 <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
 <body>
 <header>
-    <h1>Mateusz Adamiak</h1>
-    <h2>Software Developer | Tutor</h2>
+    <h1 class="header__name">Mateusz Adamiak</h1>
+    <h2 class="header__title">Software Developer | Tutor</h2>
 </header>
 <main>
-    <section id="about">
-        <div class="tab" id="profile">
-            <h5>Profile</h5>
-            <img class="avatar" src="assets/img/avatar.png">
-            <h3>Mateusz Adamiak</h3>
-            <h4>Java Developer</h4>
-            <p class="highlight">
-                A software craftsman with experience in software development since 2013.
-            </p>
-            <p>
-                A dedicated and enthusiastic team player with strong work ethic putting great effort in creating robust
-                and lean software products. Particular strength in writing testable and clean code. Taking chances to
-                try out new technologies in order to meet system requirements better.
-            </p>
+    <section class="tabs">
+        <div class="profile">
+            <h1 class="tab__header">Profile</h1>
+            <div class="profile__info">
+                <div>
+                    <img class="profile__info--avatar" src="assets/img/avatar.jpg">
+                </div>
+                <div>
+                    <h2 class="profile__info--name">Mateusz Adamiak</h2>
+                    <h3 class="profile__info--title">Java Developer</h3>
+                </div>
+            </div>
+            <div class="profile__description">
+                <p class="highlight">
+                    A software craftsman with experience in software development since 2013.
+                </p>
+                <p>
+                    A dedicated and enthusiastic team player with strong work ethic putting great effort in creating
+                    robust
+                    and lean software products. Particular strength in writing testable and clean code. Taking chances
+                    to
+                    try out new technologies in order to meet system requirements better.
+                </p>
+            </div>
         </div>
-        <div class="tab">
-            <h5>Experience</h5>
-            <div class="timeline-container">
-                <div class="timeline">
-                    <div class="entry">
-                        <div class="title">
-                            <h6>2018 - Present</h6>
-                            <p>Tutor, E-korepetycje</p>
-                        </div>
-                        <div class="body">
-                            <p class="highlight">
-                                Offer assistance with learning Java language.
-                            </p>
-                        </div>
+        <div>
+            <h1 class="tab__header">Experience</h1>
+            <div class="timeline">
+                <div class="timeline-entry">
+                    <div class="timeline-entry__header">
+                        <h2>2018 - Present</h2>
+                        <p>Tutor, E-korepetycje</p>
                     </div>
-                    <div class="entry">
-                        <div class="title">
-                            <h6>2017 - Present</h6>
-                            <p>Software Engineer, Ocado Technology</p>
-                        </div>
-                        <div class="body">
-                            <p class="highlight">
-                                Develop applications for Ocado Smart Platform - solution for retail businesses operating
-                                online.
-                            </p>
-                        </div>
+                    <div class="timeline-entry__body">
+                        <p class="highlight"> Offer assistance with learning Java language. </p>
                     </div>
-                    <div class="entry">
-                        <div class="title">
-                            <h6>2013-2017</h6>
-                            <p>Software Developer, Nokia</p>
-                        </div>
-                        <div class="body">
-                            <p>
-                                Develop application for managing software installation in client's mobile broadband
-                                infrastructures.
-                            </p>
-                            <p>
-                                Develop innovative platform processing network's data for data intelligence purposes.
-                            </p>
-                        </div>
+                </div>
+                <div class="timeline-entry">
+                    <div class="timeline-entry__header">
+                        <h2>2017 - Present</h2>
+                        <p>Software Engineer, Ocado Technology</p>
+                    </div>
+                    <div class="timeline-entry__body">
+                        <p class="highlight">
+                            Develop applications for Ocado Smart Platform - solution for retail businesses operating
+                            online.
+                        </p>
+                    </div>
+                </div>
+                <div class="timeline-entry">
+                    <div class="timeline-entry__header">
+                        <h2>2013-2017</h2>
+                        <p>Software Developer, Nokia</p>
+                    </div>
+                    <div class="timeline-entry__body">
+                        <p>
+                            Develop application for managing software installation in client's mobile broadband
+                            infrastructures.
+                        </p>
+                        <p> Develop innovative platform processing network's data for data intelligence purposes. </p>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="tab" id="social">
-            <h5>Contact</h5>
-            <div class="icons-social">
-                <a target="_blank" href="mailto:mateusz.adamiak90@gmail.com">
-                    <i class="fa fa-envelope"></i>
-                </a>
-                <a target="_blank" href="https://github.com/madamiak">
-                    <i class="fab fa-github"></i>
-                </a>
-                <a target="_blank" href="https://twitter.com/matt_adamiak">
-                    <i class="fab fa-twitter"></i>
-                </a>
-                <a target="_blank" href="https://stackoverflow.com/users/2443879/amalgamat">
-                    <i class="fab fa-stack-overflow"></i>
-                </a>
-                <a target="_blank" href="https://www.linkedin.com/in/mateusz-adamiak">
-                    <i class="fab fa-linkedin"></i>
-                </a>
-                <a target="_blank" href="https://www.e-korepetycje.net/madamiak">
-                    <i class="fa fa-graduation-cap"></i>
-                </a>
-            </div>
-        </div>
     </section>
 </main>
+<footer>
+    <div class="icons-social">
+        <a href="mailto:mateusz.adamiak90@gmail.com">
+            <i class="fa fa-envelope"></i>
+        </a>
+        <a href="https://github.com/madamiak">
+            <i class="fab fa-github"></i>
+        </a>
+        <a href="https://twitter.com/matt_adamiak">
+            <i class="fab fa-twitter"></i>
+        </a>
+        <a href="https://stackoverflow.com/users/2443879/amalgamat">
+            <i class="fab fa-stack-overflow"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/mateusz-adamiak">
+            <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="https://www.e-korepetycje.net/madamiak">
+            <i class="fa fa-graduation-cap"></i>
+        </a>
+    </div>
+</footer>
 </body>
 </html>
